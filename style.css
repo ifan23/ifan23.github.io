@@ -1,12 +1,148 @@
-img{ 
-  width:500px;
-  height:500px;
-  
+body{ 
+  display: flex;
+  justify-content: center;
+  width:700px;
+  margin: 50px 0 0 0;
 }
-div{ 
-font-size: 50px;
-  color: grey;
+
+.topBar{ 
+  display: flex;
   position: absolute;
-  top:50px;
-  left: 200px
+  top:0px;
+  height: 50px;
+  width: 700px;
+  background-color: black;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+
+a{ 
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 20px; 
+}
+
+.block{ 
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+img{ 
+  max-width: 42%;
+}
+
+.title{ 
+  font-family: 'Abril Fatface', cursive;
+  line-height:60px;
+  position: absolute;
+  top: 250px;
+  width:280px;
+  left: 70px;
+}
+
+#name{ 
+  font-size: 30px;
+  margin:0px;
+  padding: 0px;
+  line-height: 20px;
+}
+
+.smaller1{ 
+  flex:150%
+}
+.smaller2{ 
+  flex:250%;
+}
+.smaller3{ 
+  flex: 265%;
+}
+
+#Anakin{
+  font-size: 58px;
+  margin:0px 0px 80px 0px;
+  padding: 0px;
+ }
+
+.paragrapf{ 
+  margin: 20px;
+  font-family:'Josefin Sans', sans-serif;
+  line-height:25px;
+}
+
+.block{ 
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.quote{   
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+  padding:0 50px 0 0px;
+  margin:20px 0 0 0;
+  background-color: #494d4b;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size:40px;
+  text-align: left;
+}
+
+q::before{ 
+  content: '“';
+}
+
+#together{ 
+  padding:20px 0px;
+  margin: 0 0 0 0px;
+  line-height:50px;
+}
+
+#q{
+  font-size:90px;
+  margin:0px;
+  padding:0px;
+  line-height:70px;
+}
+
+.subtitles{ 
+  font-size:21px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 50px 0px 50px 30px;
+  line-height:25px;
+}
+
+#design{
+  font-size:17px;
+}
+
+#subtext{
+  font-size:15px;
+  color: #494d4b;
+}
+
+.last{ 
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  margin: 0px 0px 20px 30px;
+}
+
+#sith{ 
+  margin: 50px 0px 0px 30px;
+}
+
+.list{ 
+  margin:0px 0px 30px 30px;
+  line-height:25px;
+  color:#494d4b;
+}
+
+#line{ 
+  background-color:black;
+  width:100%;
+  height: 3px;
 }
