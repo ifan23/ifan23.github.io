@@ -1,21 +1,21 @@
 img{ 
   widows: 100%;;
-  height:500px;
+  height:100%;
   }
 div{ 
   font-size: 50px;
   color: grey;
   position: absolute;
   top:50px;
-  left: 350px;
+  left: 450px;
   font-family: 'Raleway', sans-serif;
 }
-a{ 
+#welcome{ 
   position: absolute;
   font-size: 50px;
   border-radius: 50px;
   top: 150px;
-  left: 430px;
+  left: 530px;
   font-size: 50px;
   color: grey;
   border: 1px solid grey;
@@ -25,12 +25,42 @@ a{
 } 
 a:hover{ 
   background-color: black;
-}
+
+} 
+
 h1{ 
   font-size: 50px;
   color: grey;
   font-family: 'Raleway', sans-serif;
+  position: absolute;
+  top:70px;
+  left: 50px;
 }
-
-
+.container{ 
+  position: absolute;
+  top:0px;
+  left:0px;
+  background-color: black;
+  position: fixed;
+} 
+.header{ 
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  padding: 10px;
   
+} 
+
+#uvod{ 
+  position: absolute;
+   top: 550px;
+  left: 50px;
+  margin: 0px 100px;
+} 
+p{ 
+  width:800px;
+  margin: 0px 50px;
+  display: flex;
+  align-items: center;
+} 
