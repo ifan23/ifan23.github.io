@@ -1,12 +1,36 @@
 img{ 
-  width:500px;
+  widows: 100%;;
   height:500px;
-  
-}
+  }
 div{ 
-font-size: 50px;
+  font-size: 50px;
   color: grey;
   position: absolute;
   top:50px;
-  left: 200px
+  left: 350px;
+  font-family: 'Raleway', sans-serif;
 }
+a{ 
+  position: absolute;
+  font-size: 50px;
+  border-radius: 50px;
+  top: 150px;
+  left: 430px;
+  font-size: 50px;
+  color: grey;
+  border: 1px solid grey;
+  padding: 10px 20px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+} 
+a:hover{ 
+  background-color: black;
+}
+h1{ 
+  font-size: 50px;
+  color: grey;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+  
