@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFANtastic kalkulacka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>kalkulacka</p>
+    <label for="ageInput">Vek</label>
+    <input type="number" id="ageInput">
+    <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Muž</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Žena</label><br>
+    </form>
+    <label for="heightInput">Výška</label>
+    <input type="number" id="heightInput"><p>cm</p><br>
+    <label for="weightInput">Hmotnosť</label>
+    <input type="number" id="weightInput"><p>kg</p>
+    <p> Aktivita</p>
+    <select id="activity" name="activity">
+        <option value="1">Kludový metabolizmus (BMR)</option>
+        <option value="1.2">Sedavý typ (minimálna alebo žiadna športová aktivita)</option>
+        <option value="1.375">Ľahká: cvičenie 1-3x za týždeň</option>
+        <option value="1.465" selected="">Stredná: cvičenie 4-5x/týždeň</option>
+        <option value="1.55">Aktívna: denné cvičenie alebo intenzívne cvičenie 3-4x/týždeň</option>
+        <option value="1.725">Veľmi aktívna: intenzívne cvičenie 6-7x/týždeň</option>
+        <option value="1.9">Extrémne aktívna: veľmi intenzívne tréningy denne, alebo fyzická práca</option>
+    </select><br>
+
+    <button id=submit>Poďme na to</button>
+</body>
+</html>
