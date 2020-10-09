@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
 }
-img{ 
+.fotka2{ 
   display: flex;
   widows: 100%;
   min-width: 300px;
@@ -80,5 +80,36 @@ p{
 }
 .backToMain{
  text-decoration: none;
+ font-size: 25px;
+ color: black;
+ padding: 10px;
+ font-family: 'Anton', sans-serif;
+ word-spacing: 15px;
 
+}
+.kontakt{
+  background: yellow;
+  width:100%;
+  height:1000px;
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+}
+.fbig{
+  height:30px;
+  width:30px;
+  padding-left: 300px;
+  word-spacing: 25px;
+  border-radius: 50px;
+
+}
+.text{
+  margin: 150px 0px 30px 70px;
+  font-size: 40px;
+  color: black;
+  font-size: bold;
+  font-family: 'Anton', sans-serif;
 }
