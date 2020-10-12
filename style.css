@@ -2,21 +2,42 @@
   display: flex;
   justify-content: center;
 }
+#ifantastic{ 
+  position: absolute;
+  top:10px;
+  left: 250px;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+}
+#getFit{ 
+  position: absolute;
+  top:100px;
+  left: 250px;
+  font-weight: bold;
+  font-family: 'Piazzolla', serif;
+}
+.hlavny{
+  display:flex;
+  width:100%;
+  flex-direction: column;
+  flex-shrink: 1;
+}
 .fotka2{ 
   display: flex;
   widows: 100%;
-  min-width: 300px;
+  min-width: 500px;
   flex-shrink: 1;
   height:400px;
-
+  
   }
-div{ 
+.vitajPodDalej{ 
   font-size: 50px;
   color: grey;
   position: absolute;
   top:50px;
   left: 620px;
   font-family: 'Raleway', sans-serif;
+  flex-wrap: wrap;
 }
 #welcome{ 
   position: absolute;
@@ -39,7 +60,7 @@ div{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0px 350px 0px 200px;
+  margin:0px 250px;
   
 }
 h1{ 
@@ -52,10 +73,12 @@ h1{
 }
 .container{ 
   position: absolute;
-  top:200px;
+  top:50px;
   left:0px;
   background-color: black;
   position: fixed;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 } 
 .header{ 
   text-decoration: none;
@@ -69,7 +92,7 @@ h2{
   font-size: 50px;
   color: grey;
 }
-p{ 
+#uvod{ 
   width:100%;
   display: block;
   align-items: center;
