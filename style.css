@@ -43,7 +43,7 @@
   position: absolute;
   font-size: 50px;
   border-radius: 50px;
-  top: 150px;
+  top: 170px;
   left: 700px;
   font-size: 50px;
   color: grey;
@@ -109,7 +109,7 @@ h2{
  border: black 2px solid;
  border-radius: 10%;
  }
-.bodyKontakt{
+ .bodyKontakt{
   max-width: 500px;
   display: flex;
 }
@@ -134,9 +134,9 @@ h2{
   display: inline;
   height:30px;
   width:30px;
-  word-spacing: 25px;
   border-radius: 50px;
   max-width: 100px;
+  align-items: flex-start;
 }
 .text{
   font-size: 40px;
@@ -144,10 +144,11 @@ h2{
   font-size: bold;
   font-family: 'Anton', sans-serif;
   max-width: 1000px;
-  line-height: 60px;
+  
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 .backTo{
   text-decoration: none;
@@ -156,4 +157,15 @@ h2{
  padding: 10px;
  font-family: 'Anton', sans-serif;
  word-spacing: 15px;
+}
+#subject{
+  border-radius: 10px;    
+  
+}
+label{
+  font-size: 20px;
+  color: black;
+   line-height: 50px;
+  font-family: 'Anton', sans-serif;
+  
 }
