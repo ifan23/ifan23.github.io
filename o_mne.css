@@ -1,0 +1,74 @@
+.backToMain{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+    border: black 2px solid;
+    border-radius: 10%;
+    width: 160px;
+    display: flex;
+    position: absolute;
+    left:7px;
+    top:7px;
+    transition: all 0.5s;
+}
+.backToMain:hover{
+    background-color: white;
+    transform: scale(1.1);
+  }
+.kontakt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 450px 250px;
+    background-image: url("../ifan23.github.io/pictures/triangular.png");
+    
+}
+.container{
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    flex-shrink: 1;
+    background-color: white;
+    padding: 30px;
+    min-width: 500px;
+    flex-shrink: 1;
+
+}
+.oMne{
+    width:100%;
+    display: block;
+    align-items: center;
+    font-family: 'Piazzolla', serif;
+    line-height: 30px;
+    font-size: 20px;
+    min-width: 500px;
+    text-align: justify;
+}
+
+.ja{
+    display: flex;
+    height: 120%    ;
+    width: 80%;
+    min-width: 500px;
+    flex-shrink: 1;
+    align-items: center;
+    position: absolute;
+    top:0px;
+    left: 140px;
+    z-index: -1;
+    
+    
+}
+.fatMe{  
+ height: 470px;
+ width:250px; 
+ float: left;
+ margin: 10px 10px 0px 0px;
+}
+.fitMe{  
+    height: 270px;
+    width:250px; 
+    float: right;
+    margin: 10px 0px 0px 10px;
+   }

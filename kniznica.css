@@ -1,0 +1,9 @@
+body{
+    background-image: url("../ifan23.github.io/pictures/triangular.png");
+    display: flex;
+  }
+
+.result{
+    
+    align-items: center;    
+}
